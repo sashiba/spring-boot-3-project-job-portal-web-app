@@ -11,7 +11,6 @@ import java.util.Collection;
 import java.util.List;
 
 public class CustomUserDetails implements UserDetails {
-
     private Users user;
 
     public CustomUserDetails(Users user) {

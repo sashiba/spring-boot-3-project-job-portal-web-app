@@ -47,10 +47,10 @@ public class UsersController {
             List<UsersType> usersTypes = usersTypeService.getAll();
             m.addAttribute("getAllTypes", usersTypes);
             m.addAttribute("user", new Users());
-            return "register♠";
+            return "register";
         }
         usersService.addNew(users);
-        return "dashboard";
+        return "redirect:/dashboard/";
     }
 
     @GetMapping("/login")

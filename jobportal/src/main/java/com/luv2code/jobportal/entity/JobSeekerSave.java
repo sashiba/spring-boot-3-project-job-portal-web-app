@@ -60,7 +60,7 @@ public class JobSeekerSave implements Serializable {
         return "JobSeekerSave{" +
                 "id=" + id +
                 ", userId=" + userId.toString() +
-                ", jobPostId=" + job.toString() +
+                ", job=" + job.toString() +
                 '}';
     }
 }
